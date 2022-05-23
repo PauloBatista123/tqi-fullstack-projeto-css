@@ -1,0 +1,30 @@
+* {
+    background-color: steelblue;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valor {
+    font-size: 28px;
+    color: aqua;
+}
+
+.container button {
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 5px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #03035083;
+}
